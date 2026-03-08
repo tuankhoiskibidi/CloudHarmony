@@ -1,0 +1,144 @@
+.navbar-brand:hover{
+    font-weight: bold;
+    transform: translateY(-2px);
+}
+.navbar-brand{
+    transition: all 0.3s ease;
+    font-weight: normal;
+}
+.navbar-toggler:hover { 
+    color: black; 
+    font-weight: bold;
+    transform: translateY(-2px);
+    
+}
+
+.navbar-toggler {
+    transition: all 0.3s ease;
+    border-color: none;
+    color: white; 
+    font-weight: normal;
+}
+
+.btn-hover-effect:hover {
+
+    transform: translateY(-2px); 
+    
+
+    background-color: white; 
+    
+
+    border-color: white;
+
+    color : black;
+
+    font-weight: bold;
+}
+
+.btn-hover-effect {
+    transition: all 0.3s ease;
+    color: white;
+
+    font-weight: normal;
+}
+
+
+
+.calendar-card {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+ 
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        width: 100%;
+    }
+
+    .weekday {
+      text-align: center;
+      font-weight: bold;
+      color: #555;
+      padding: 10px 0;
+      border-bottom: 2px solid #eee;
+    }
+
+    .day-cell {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #f0f0f0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    }
+    .day-cell:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+    font-weight: bold;
+}
+  .current-day {
+    background-color: #007bff !important;
+    color: white !important;
+    border-radius: 50%; 
+    transform: scale(0.8);
+}   
+  .text-muted {
+    color: #ccc !important; 
+}
+
+    .calendar-days div {
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      transition: 0.3s;
+      border: 1px solid #f9f9f9;
+      cursor: pointer;
+    }
+
+    .calendar-days div:hover {
+      background-color: #f0f7ff;
+    }
+
+.current-day {
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+body {
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center; 
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+.glow-yellow {
+  font-size: 24px;
+  color: #FFD700;
+  text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FFA500, 0 0 30px #FFA500, 0 0 40px #FF8C00;
+}

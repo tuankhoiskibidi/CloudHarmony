@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CloudHarmony</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/CloudHarmony.css">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="CloudHarmony.html">CloudHarmony</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler text-white border-0">+</span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn  btn-lg btn-hover-effect " href="Homnay.html">Thời tiết hôm nay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn  btn-lg btn-hover-effect" href="Hangthang.html"> Hằng tháng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn  btn-lg btn-hover-effect" href="TTyeuthich.html"> thời tiết yêu thích của bạn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="content-wrapper">
+  <div class="carousel-container overflow-hidden bg-light py-5">
+    <div class="carousel-track d-flex flex-row flex-nowrap" id="main-track">
+      <h2 class="text-center fw-bold mb-4"> Thời tiết của thành Phố Yêu Thích Của Bạn</h2>
+      <div class="d-flex">
+        <div class="card square-card border-0 shadow m-3 bg-white">
+          <div class="card-body text-center p-4">
+            <div class="mb-3">
+              <h5 class="fw-bold mb-0" id="city-name">-----</h5>
+              <small class="text-muted" id="current-date">-----</small>
+            </div>
+
+            <div class="my-3">
+              <img src="" alt="">
+              <h2 class="display-4 fw-bold" id="temp-main">--°c</h2>
+            </div>
+
+            <div>
+              <p class="mb-0 fw-semibold text-primary" id="description">-----</p>
+              <p class="text-muted x-small mt-1" id="temp-range">--°C / --°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="favorite-section mt-5">
+    <h2 class="text-center fw-bold mb-4">Thành Phố Yêu Thích Của Bạn</h2>
+
+    <div class="carousel-container justify-content-center overflow-hidden bg-light py-3">
+      <div class="carousel-track d-flex flex-row flex-nowrap" id="favorite-track">
+       
+
+    </div>
+    
+  </div>
+  <div class="justify-content-center">
+    <button id="clear-fav-btn" class="btn btn-dark">Xóa thành phố yêu thích</button>
+  </div>
+</div>
+    
+
+
+
+
+    <footer>
+      <div class="text-center p-4 text-secondary">
+        <span class="glow-yellow">☀️</span>Sản phẩm được phát triển bởi Lầu Hùng Tuấn Khôi
+      </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+
+    <script type="module" src="js/CloudHarmony.js"></script>
+
+</body>
+
+</html>

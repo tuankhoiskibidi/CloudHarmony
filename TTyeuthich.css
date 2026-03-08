@@ -1,0 +1,70 @@
+.navbar-brand:hover{
+    font-weight: bold;
+    transform: translateY(-2px);
+}
+.navbar-brand{
+    transition: all 0.3s ease;
+    font-weight: normal;
+}
+.navbar-toggler:hover { 
+    color: black; 
+    font-weight: bold;
+    transform: translateY(-2px);
+    
+}
+
+.navbar-toggler {
+    transition: all 0.3s ease;
+    border-color: none;
+    color: white; 
+    font-weight: normal;
+}
+
+.btn-hover-effect:hover {
+
+    transform: translateY(-2px); 
+    
+
+    background-color: white; 
+    
+
+    border-color: white;
+
+    color : black;
+
+    font-weight: bold;
+}
+
+.btn-hover-effect {
+    transition: all 0.3s ease;
+    color: white;
+
+    font-weight: normal;
+}
+
+
+
+.square-card {
+  flex: 0 0 auto;         
+  width: 300px;           
+}
+
+
+
+body {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+.glow-yellow {
+  font-size: 24px;
+  color: #FFD700;
+  text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FFA500, 0 0 30px #FFA500, 0 0 40px #FF8C00;
+}

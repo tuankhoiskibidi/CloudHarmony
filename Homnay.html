@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CloudHarmony</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/homnay.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="CloudHarmony.html">CloudHarmony</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler text-white border-0">+</span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn  btn-lg btn-hover-effect " href="Homnay.html">Thời tiết hôm nay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn  btn-lg btn-hover-effect" href="Hangthang.html" > Hằng tháng</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link btn  btn-lg btn-hover-effect" href="TTyeuthich.html" > thời tiết yêu thích của bạn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-4 mb-3">
+            <div class="card border-0 shadow bg-white h-100">
+                <div class="card-body text-center p-4">
+                    <h5 class="fw-bold mb-0 display-6" id="city-name">------</h5>
+                    <h5 id="current-date"></h5>
+                    <h2 class="fs-3 fw-bold mt-3" id="temp-main">--°c</h2>
+                    <p class="mb-0 fw-semibold text-primary fs-3" id="humidity">-----</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-7 mb-3">
+            <div class="card border-0 shadow bg-white h-100">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold text-center" >Bản thông tin thời tiết</h5>
+                    <hr>
+                    <p class="text-primary fs-3"  id="wind">Tốc độ gió: -- km/h</p>
+                    <p class="text-primary fs-3" id="cloud">Mây che phủ: --%</p>
+                    <p class="text-primary fs-3" id="rain">Lượng mưa: -- mm</p>
+                    <p class="text-primary fs-3" id="showers">Mưa rào: -- mm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-12 col-md-11">
+            <div class="card border-0 shadow bg-white p-4">
+                <div class="card-body text-center">
+                    <h5 class="fw-bold ">Thời tiết hôm nay</h5>
+                    <p class="display-6 fw-bold" id="weather-desc">Đang tải dữ liệu...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-12 col-md-11">
+            <div class="card border-0 shadow bg-white p-4">
+                <div class="card-body text-center">
+                    <h5 class="" id ="dust-shortDesc">Chất lượng không khí: </h5>
+                    <p class="display-6 fw-bold" id="dust-desc">Đang tải dữ liệu...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row justify-content-center mt-3">
+        <div class="col-12 col-md-11">
+            <div class="card border-0 shadow bg-white p-4">
+                <div class="card-body text-center">
+                    <h5 class="" id ="pm10dust-shortDesc">Chất lượng không khí: </h5>
+                    <p class="display-6 fw-bold" id="pm10dust-desc">Đang tải dữ liệu...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  
+
+
+
+
+
+  <footer>
+    <div class="text-center p-4 text-secondary">
+      <span class="glow-yellow">☀️</span>Sản phẩm được phát triển bởi Lầu Hùng Tuấn Khôi
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="js/Homnay.js"></script>
+</body>
+
+</html>
