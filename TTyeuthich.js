@@ -8,7 +8,7 @@ searchBtn.addEventListener('click', () => {
 
     if (city !== "") {
         localStorage.setItem('favoriteCityQuery', city); 
-        window.location.href = 'CloudHarmony.html';
+        window.location.href = 'index.html';
     } else {
         alert("Vui lòng nhập tên thành phố!");
     }
